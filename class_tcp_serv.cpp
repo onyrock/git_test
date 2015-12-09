@@ -47,6 +47,12 @@ class tcp
 
     }
 
+~tcp()
+{
+  close(socket_desc); 
+ 
+ 
+}
     // other member functions here....
 };
 
